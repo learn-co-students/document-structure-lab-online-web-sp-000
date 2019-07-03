@@ -36,6 +36,7 @@ RSpec.describe "Well-Formed HTML Document" do
       expect(link).to_not be_nil, "No <link> tag found in the <head>"
       expect(link.attributes["href"]).to_not be_nil, "The 'href' attribute is missing in the link tag"
     end
+    
 
 
     it 'contains a <title> tag to enclose the site title' do
